@@ -1,0 +1,32 @@
+baseURL = 'http://example.org/'
+languageCode = 'fr-fr'
+title = 'ENIB S3-S4'
+theme = 'nostyleplease'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+  [markup.highlight]
+  	anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokailight'
+    tabWidth = 4
+
+[params]
+  [params.theme_config]
+    appearance = "light"
+    back_home_text = ".."
+    date_format = "2006-01-02"
+    show_description = true
