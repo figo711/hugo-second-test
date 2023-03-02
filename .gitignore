@@ -1,18 +1,19 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Created by https://www.toptal.com/developers/gitignore/api/hugo
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo
 
-# Other files and folders
-.settings/
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Temporary lock file while building
+/.hugo_build.lock
+
+# End of https://www.toptal.com/developers/gitignore/api/hugo
